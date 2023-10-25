@@ -1,0 +1,43 @@
+/* Style default tags here*/
+
+
+/* Style IDs here */
+#form-custom {
+    background-color: #C68B59;
+    margin-top: 18%;
+    margin-bottom: 18%;
+    padding: 10%;
+    border-radius: 25px;
+  }
+
+.image-resize {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 16.5%;
+  transform: translate(-50%, -50%);
+}  
+
+/* Style classes here */
+.form-check {
+    margin-right: 70px;
+}
+
+.btn-block {
+    width: 90%;
+    margin-left: 15px;
+}
+
+.left-side {
+    background-color: #C68B59;
+}
+
+.right-side {
+    background-color: #865439;
+}
+
+/* Important: Removes spaces in between col */
+.no-gutter > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}

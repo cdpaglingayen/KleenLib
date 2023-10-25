@@ -1,0 +1,29 @@
+body { 
+    background-color: #865439;
+}
+
+.content {
+    background-color: #C68B59;
+}
+
+.bg-card {
+    background-color: #865439;
+}
+
+
+/** ADDED STYLES -Ram  **/
+
+.img-table {
+    width: 200px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .img-table td {
+        margin-right: 20px;
+    }
+
+    .img-table tr {
+        margin-bottom: 20px;
+    }

@@ -1,0 +1,87 @@
+/* Style default tags here*/
+
+
+/* Style IDs here */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  min-height:100vh;
+  display:grid;
+  place-content:center;
+  font-family:sans-serif;
+  background-color:#865439;
+}
+
+form{
+  width:90vw;
+  max-width:768px;
+  padding:3vw;
+  display:flex;
+  flex-direction:column;
+  border-radius:100px;
+}
+
+button{
+  padding: 10px; 
+  margin-top:20px;
+  background-color:#8FC1D4;
+  color:#000000;
+  cursor:pointer;
+  border-radius:30px;
+}
+
+label:focus-within > span,
+input:not(:placeholder-shown) + span{
+  color:purple;
+  transform:translateY(0px);
+}
+
+.reg{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-family:sans-serif;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #000000;
+}
+
+#form-custom {
+  background-color: #C68B59;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 10%;
+  border-radius: 25px;
+}
+
+h1{
+text-align: center;
+margin-top: 0px;
+font-family:sans-serif;
+text-transform: uppercase;
+font-size: 40px;
+background-color: #FCDEC0;
+color: #000000;
+border-radius: 25px;
+}
+
+.container{
+text-align: center; 
+color: white;
+
+}
+/* Important: Removes spaces in between col */
+.no-gutter > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.header {
+  background: #003366;
+}
+button[name=register_btn] {
+  background: #003366;
+}
